@@ -2,7 +2,7 @@
 # Script to update  Gofr Valuesets
 
 Requirements
-install the jq library
+1. install the jq library
 
      sudo apt install -y jq
 Steps
