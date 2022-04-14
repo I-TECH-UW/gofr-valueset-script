@@ -1,0 +1,63 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "openelis-code-system",
+    "url": "http://hl7.org/fhir/CodeSystem/openelis-facility-types",
+    "version": "1.0.0",
+    "name": "OpenELIS Global Facility Types",
+    "title": "OpenELIS Global Facility Types",
+    "status": "draft",
+    "experimental": true,
+    "date": "2022-01-28",
+    "publisher": "I-TECH-UW",
+    "contact": [
+        {
+            "name": "I-TECH-UW Team",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "www.github.com/i-tech-uw"
+                }
+            ]
+        }
+    ],
+    "description": "These are the Facility Types used in OpenELIS",
+    "caseSensitive": true,
+    "content": "supplement",
+    "concept": [
+        {
+            "code": "referring clinic",
+            "display": "referring clinic",
+            "definition": "Ordering Facility"
+        },
+        {
+            "code": "Referral Out Laboratory",
+            "display": "Referral Out Laboratory",
+            "definition": "Reference Laboratory "
+        },
+        {
+            "code": "ward/department/unit",
+            "display": "ward/department/unit",
+            "definition": "ward/department/unit "
+        },
+        {
+            "code": "ARV Service Loc",
+            "display": "ARV Service Loc",
+            "definition": "ARV Service Location"
+        } ,
+        {
+            "code": "EID",
+            "display": "EID",
+            "definition": "EID Service Location"
+        },
+        {
+            "code": "Health District",
+            "display": "Health District",
+            "definition": "Health District"
+        },
+        {
+            "code": "Health Region",
+            "display": "Health Region",
+            "definition": "Health Region"
+        }    
+    ]
+}
