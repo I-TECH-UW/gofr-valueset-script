@@ -16,8 +16,7 @@
                 "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
             },
             {
-            	"system": "http://hl7.org/fhir/CodeSystem/openelis-facility-types"
-            	
+            	"system": "http://hl7.org/fhir/CodeSystem/openelis-facility-types"        	
             }
         ]
     }

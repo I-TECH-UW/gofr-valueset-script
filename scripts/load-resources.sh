@@ -6,4 +6,4 @@ token=`curl -XPOST -H 'Content-Type: application/json' -d '{"username": "'"$user
 
 curl -i -H "Content-type: application/json" -H "Authorization: Bearer ${token}" -X PUT ${baseurl}/fhir/DEFAULT/ValueSet/gofr-location-type-valueset -d @./resources/gofr-location-type-valueset.json
 
-curl -i -H "Content-type: application/json" -H "Authorization: Bearer ${token}" -X PUT ${baseurl}/fhir/DEFAULT/ValueSet/gofr-location-type-valueset -d @./resources/openelis-code-system.json
+curl -i -H "Content-type: application/json" -H "Authorization: Bearer ${token}" -X PUT ${baseurl}/fhir/DEFAULT/CodeSystem/openelis-code-system -d @./resources/openelis-code-system.json
